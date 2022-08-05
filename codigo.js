@@ -26,10 +26,14 @@
 ];
 
 
+
  let encontrado=bikinis.find((bikini)=>bikini.nombre=="mara");
   console.log(encontrado);
 
- encontrado =bikinis.find((bikini)=>bikini.nombre=="JS para genios");
+ encontrado =bikinis.find((bikini)=>bikini.nombre=="raquel");
+ console.log(encontrado);
+
+ encontrado =bikinis.find((bikini)=>bikini.nombre=="nicole");
  console.log(encontrado);
 
    if(encontrado != undefined){
