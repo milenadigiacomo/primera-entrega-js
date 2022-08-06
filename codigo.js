@@ -27,18 +27,11 @@
 
 
 
- let encontrado=bikinis.find((bikini)=>bikini.nombre=="mara");
-  console.log(encontrado);
+const busqueda = bikinis.find((bikini)=>bikini.nombre===prompt("Ingrese el nombre de la bikini que desea"))
 
- encontrado =bikinis.find((bikini)=>bikini.nombre=="raquel");
- console.log(encontrado);
-
- encontrado =bikinis.find((bikini)=>bikini.nombre=="nicole");
- console.log(encontrado);
-
-   if(encontrado != undefined){
-     console.log("La bikini está en stock :)))");
-     console.log(encontrado);
- }else{
-     console.log(" Sin stock :(");
- }
+if(busqueda != (bikinis.nombre)){
+    alert("La bikini está en stock :)))");
+    console.log(busqueda);
+}else{
+    alert(" Sin stock :(");
+}
